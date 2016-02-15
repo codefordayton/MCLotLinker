@@ -1,20 +1,18 @@
-Dayton REAP
+MCLotLinker
 ==========
 
-Web application to streamline Dayton's REAP (Real Estate Acquisition Process) Program.
+Web application to streamline Montgomery County's Foreclosure Application Program.
 
-The process is described here: http://www.cityofdayton.org/departments/pcd/Pages/LotLinksProgram.aspx
-
-And a video walkthrough is here: https://www.youtube.com/watch?v=cIIOYG-B4NY
+This is based on the LotLinker application for the city of Dayton, which can be found here: https://github.com/codefordayton/daytonreap
 
 ## Installation
 
-Dayton REAP uses [npm](http://howtonode.org/introduction-to-npm) and [bower](http://bower.io/#install-bower). Follow those links to get the prerequisites installed before starting.
+MCLotLinker uses [npm](http://howtonode.org/introduction-to-npm) and [bower](http://bower.io/#install-bower). Follow those links to get the prerequisites installed before starting.
 
 Once the toolchain is installed, simply run:
 ```
-git clone https://github.com/codefordayton/daytonreap.git
-cd daytonreap
+git clone https://github.com/codefordayton/mclotlinker.git
+cd mclotlinker 
 npm install
 bower install
 npm run start
@@ -23,4 +21,3 @@ npm run start
 Running `npm run start` will start a server, and should open a browser window at http://localhost:8000/. 
 
 If you run into any issues, don't hesitate to create an issue in this repo, or contact us via one of the methods described at http://codefordayton.org/.
-
