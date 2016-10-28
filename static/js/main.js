@@ -14,7 +14,7 @@ $("document").ready(function() {
   
   /// Link Helper functions
   function generateTreasurersLink(parcelid){
-    return "http://www.mctreas.org/master.cfm?parid=" + parcelid.replace(" ", "%20") + "&taxyr=2015&own1=SMITH";
+    return "http://www.mctreas.org/master.cfm?parid=" + parcelid.replace(" ", "%20") + "&taxyr=2016&own1=SMITH";
   };
   
   function generateGISLink(parcelid){
@@ -202,7 +202,7 @@ $("document").ready(function() {
       var a = points[i];
       var title = a.street;
       var icon = blueMarker;
-      if (!isFinite(a.street[0]))
+      if (a.lot)
         icon = lotMarker;
       if (a.claimed)
         icon = redMarker;
