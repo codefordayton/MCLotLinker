@@ -6,3 +6,4 @@ bower_components
 .divshot-cache
 *.swp
 centroids.dbm.db
+npm-debug.log
