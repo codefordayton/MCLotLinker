@@ -30,7 +30,7 @@
    <body>
       <div class="navbar">
          <div class="logo-container">
-            <a class="logo" href="#"><h2>GoGetProperties</h2></a>
+            <a class="logo" href="#"><h1>GoGetProperties</h1></a>
          </div>
       </div>
       <div class="mappanel">
@@ -42,7 +42,7 @@
       <div class="resultspanel">
          <div class="contentpanel searchpanel">
             <div id="custom-templates">
-               <input class="typeahead" id="addressInput" type="text" placeholder="Enter Street Address or Parcel ID"></input>
+               <input class="typeahead" id="addressInput" type="text" placeholder="Enter Street Address or Parcel ID" aria-label="Text box to enter street address"></input>
             </div>
             <div class="results">
                <p class="result-text" id="selectedAddress"></p>
@@ -56,7 +56,7 @@
 
          <div id="intropanel" class="intropanel">
             <div class="introcontainer">
-               <h1>GoGetProperties Search Tool</h1>
+               <h2>GoGetProperties Search Tool</h2>
                <p class="intro-paragraph"><strong>GoGetProperties</strong> is the property search tool for the <a href="https://www.mclandbank.com/programs/foreclosure-acquisition">Montgomery County Land Bank's Foreclosure Acquisition Program</a>. Through this program, citizens and investors can <strong>acquire unoccupied, tax-delinquent property at deeply discounted prices</strong> in exchange for the commitment to <strong>improve the property and pay future taxes</strong> on it.</p>
                <p>The program uses a provision of Ohio law that allows the Land Bank to take title to tax-delinquent, abandoned properties in Montgomery County and sell them to qualified buyers.</p>
                <p>The Foreclosure Acquisition Program applies to residential properties in all Montgomery County jurisdictions other than the city of Dayton, which has operated a similar program for several years. For a property within the city of Dayton, please check <a href="http://lotlinker.com">LotLinker.com</a>.</p>
@@ -64,7 +64,7 @@
                <p>We suggest that you learn more about the <a href="https://www.mclandbank.com/programs/foreclosure-acquisition">Foreclosure Acquisition Program</a> before starting to use this tool.</p>
 			   <div class="FAQcontainer">
                   <div id="FAQ-eligibility" class="FAQ-item">
-                     <h4><span class="expand-icon">+</span> What makes a property eligible for Foreclosure Acquisition?</h4>
+                     <h3><span class="expand-icon">+</span> What makes a property eligible for Foreclosure Acquisition?</h3>
                      <div id="FAQ-eligibility-expand" class="FAQ-expand">
                         <ul class="scrunched">
                            <li>is in Montgomery County</li>
@@ -79,16 +79,16 @@
 
 
                   <div id="FAQ-howto" class="FAQ-item">
-                     <h4><span class="expand-icon">+</span> How do I use this tool?</h4>
+                     <h3><span class="expand-icon">+</span> How do I use this tool?</h3>
                      <div id="FAQ-howto-expand" class="FAQ-expand">
-                        <p>You can search by address, parcel number, or by visual inspection of the map.<br>To view the address and parcel number of a location on the map, click on the blue balloon icon. <img class="small-balloon" src="/bower_components/leaflet/dist/images/marker-icon.png"> Vacant lots have a <i>leaf</i> icon in the balloon. Other properties have a <i>home</i> icon.</p>
+                        <p>You can search by address, parcel number, or by visual inspection of the map.<br>To view the address and parcel number of a location on the map, click on the blue balloon icon. <img class="small-balloon" src="/node_modules/leaflet/dist/images/marker-icon.png" alt="Map marker icon"> Vacant lots have a <i>leaf</i> icon in the balloon. Other properties have a <i>home</i> icon.</p>
                         <p>Properties that have already been claimed show up with a red balloon. These are not available at this time.</p>
                      </div>
                   </div>
 
 
                   <div id="FAQ-notfound" class="FAQ-item">
-                     <h4><span class="expand-icon">+</span> I can't find the property I'm looking for?</h4>
+                     <h3><span class="expand-icon">+</span> I can't find the property I'm looking for?</h3>
                      <div id="FAQ-notfound-expand" class="FAQ-expand">
                         <p>If the property does not show up in this search tool, then it is eligible for the Foreclosure Acquisition Program at this time.</p>
                         <p>If the property shows up with a red balloon, then the property has already has an active claim against it.</p>
@@ -97,7 +97,7 @@
 
 
                   <div id="FAQ-nowwhat" class="FAQ-item">
-                     <h4><span class="expand-icon">+</span> I found an eligible property! Now what?</h4>
+                     <h3><span class="expand-icon">+</span> I found an eligible property! Now what?</h3>
                      <div id="FAQ-nowwhat-expand" class="FAQ-expand">
                         <p>You'll need to visit the property in person to make sure it is <strong>unoccupied</strong> per <a href="http://codes.ohio.gov/orc/323.65">Ohio Revised Code 323.65</a>. <a href="https://www.mclandbank.com/programs/foreclosure-acquisition">Click here</a> for a detailed description of the Foreclosure Acquisition Program, including the conditions that determine whether it is <strong>unoccupied.</strong></p>
                         <p>You can also <a href="static/files/application.pdf" target="_blank">download</a> your Foreclosure Acquisition application from this page, and this will get you on your way.</p>
@@ -107,14 +107,14 @@
 
 
                </div>
-               <a class="right-image" href="https://www.mclandbank.com/programs/foreclosure-acquisition"><img class="" src="static/images/landbank.png"/></a>
+               <a class="right-image" href="https://www.mclandbank.com/programs/foreclosure-acquisition"><img class="" src="static/images/landbank.png"alt="Landband Logo"/></a>
                <p class="fineprint"><i>*The data for this tool comes directly from the Montgomery County Treasurers Office database, which is updated at the end of every month. The county's data was last queried for LotLinker on <span id="last_update"></span>.</i></p>
 
             </div>
             <div class="contentpanel footerpanel">
                <div class="footer">
                   <p class="footertext">Made with pride by</p>
-                  <a href="http://codefordayton.org"><img class="logo firstlogo" src="static/images/logo.png" /></a>
+                  <a href="http://codefordayton.org"><img class="logo firstlogo" src="static/images/logo.png"  alt="Code For Dayton Logo" /></a>
                </div>
             </div>
          </div>
