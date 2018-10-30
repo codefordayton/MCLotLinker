@@ -7,17 +7,17 @@ This is based on the LotLinker application for the city of Dayton, which can be 
 
 ## Installation
 
-MCLotLinker uses [npm](http://howtonode.org/introduction-to-npm) and [bower](http://bower.io/#install-bower). Follow those links to get the prerequisites installed before starting.
+MCLotLinker uses [npm](http://howtonode.org/introduction-to-npm).
+Follow link to get the prerequisites installed before starting.
 
 Once the toolchain is installed, simply run:
 ```
 git clone https://github.com/codefordayton/mclotlinker.git
-cd mclotlinker 
+cd mclotlinker
 npm install
-bower install
 npm run start
 ```
 
-Running `npm run start` will start a server, and should open a browser window at http://localhost:8000/. 
+Running `npm run start` will start a server, and should open a browser window at http://localhost:8000/.
 
 If you run into any issues, don't hesitate to create an issue in this repo, or contact us via one of the methods described at http://codefordayton.org/.
