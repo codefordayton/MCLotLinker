@@ -5,4 +5,3 @@ dist
 bower_components
 .divshot-cache
 *.swp
-centroids.dbm.db
